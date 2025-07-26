@@ -5,13 +5,11 @@ import Footer from "./components/Footer/Footer"
 function App() {
 
   return (
-    <>
+    <div className="grid-cols-3">
       <Header />
       <AppRouter />
-      <footer className="py-1">
-        <Footer />
-      </footer>
-    </>
+      <Footer />
+    </div>
   )
 }
 

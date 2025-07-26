@@ -1,11 +1,19 @@
-import type React from "react"
+import AuthHeader from "../components/AuthHeader"
+import LoginForm from "../components/LoginForm"
+import type { JSX } from "react"
 
-const Login: React.FC = () => {
+
+const Login = () : JSX.Element => {
     return (
         <div className="container">
-            <div className="row">
-                <div className="flex flex-row justify-around items-center">
-
+            <div className="row w-screen">
+                <div className="flex flex-col justify-around items-center md:flex-row">
+                    <div >
+                        <AuthHeader encabezado='Login Form' />
+                    </div>
+                    <div>
+                        <LoginForm />
+                    </div>
                 </div>
             </div>
         </div>

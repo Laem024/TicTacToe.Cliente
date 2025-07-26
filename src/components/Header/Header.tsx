@@ -42,7 +42,7 @@ const Header = () : JSX.Element => {
 
     return (
 
-        <div className="bg-base-100 shadow-sm">
+        <div className="bg-base-100 shadow-sm mb-10">
             <div className="navbar">
                 <div className="flex-1">
                     <Link to="/" onClick={() => setDropMenu(false)} className="btn btn-ghost text-xl">TicTacToe</Link>

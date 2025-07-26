@@ -1,8 +1,8 @@
-import NavIconLogo from "../../assets/NavIconLogo";
+import NavIconLogo from "../../assets/svg/NavIconLogo.tsx";
 
 const Footer = () => {
     return (
-        <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content items-center p-4">
+        <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content items-center p-10 mt-10">
             <aside className="grid-flow-col items-center">
                     <NavIconLogo fill="#ffffff" width="50px" height="50px"/>
                 <p className="pl-4">Copyright © {new Date().getFullYear()} - All right reserved</p>
